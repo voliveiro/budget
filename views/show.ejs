@@ -1,0 +1,50 @@
+<!DOCTYtdE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewtdort" content="width=device-width, initial-scale=1.0">
+    <title>Budget</title>
+    <link href= "/assets/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <h1> Budget Item </h1>
+
+    <table class="budget-item-content">
+        
+        <tr>
+            <td class="key"> From </td>
+            <td class="value"> <%=budgetItem.from%> </td>
+        </tr>
+        <tr>
+            <td class="key">Amount </td>
+            <td class="value"> <%=budgetItem.amount%></td>
+        </tr>
+        <tr>
+            <td class="key"> Date </td>
+            <td class="value"> <%=budgetItem.date%></td>
+        </tr>
+        <tr>
+            <td class="key"> Name </td>
+            <td class="value"> <%=budgetItem.name%></td>
+        </tr>
+        <tr> 
+            <td class="key"> Tags</td> 
+            <td class="value"> <%=budgetItem.tags%> </td>
+        </tr>
+
+    </table>
+
+    <footer> 
+
+        <div class="link-div" id="return-div"> 
+
+            <p>  Main Menu </p>
+
+        </div>
+
+    </footer>   
+ 
+    <script src="/js/show_app.js">  </script>
+</body>
+</html>
