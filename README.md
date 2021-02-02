@@ -1,3 +1,1 @@
-
-- For code, see https://github.com/voliveiro/budget
-- For app, see 
+See app at https://verniebudget.herokuapp.com/index
